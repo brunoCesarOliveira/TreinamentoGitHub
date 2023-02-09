@@ -33,3 +33,15 @@
   #Aula 23 Clonando repositório
     git clone  git@github.com:bcimportar/curso_git_1.git  => Clonando o repositório remoto
 
+  #Aula 24 Removendo arquivos
+    git rm c.txt                    => Removendo arquivo
+
+  #Aula 25 Verificando as alterações por Log
+    git log     => Verificando as os commits
+ 
+ #Aula 26 Mover ou Renomear arquivo
+   git mv script.js css/script.js                       => Movendo arquivos
+   git mv css/banne.css css/banner_inicial.css          => Renomeando arquvios
+
+ #Aula 27 Defazendo as alterações
+   git checkout css/banner_inicial.cs                    => Reseta as alterações feitas no arquivo (original)
