@@ -11,3 +11,12 @@
     git remote -rm origin              => Removendo as origin
     git remote add  origin git@github.com:bcimportar/curso_git_1.git     => Adicionando uma nova origin (SSH) (Site do Git)
     git push -u origin master          => Enviando arquivos para remoto (github.com)
+
+  #Aula 18 Verificando as Mudanças 
+    git status                         => Verificando as alterações
+    Untracked Files                    => Arquivo ainda não mapeado pelo GitHub (U)
+    new File                           => Novo arquivo adicionado  (A)
+    modified File                      => Arquivo modificado (M)
+    git add contato.html               => Adicionando um arquivo específico 
+    git add .                          => Adicionando Todos os arquivo para serem comitados
+  
