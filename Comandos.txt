@@ -81,4 +81,15 @@
      git checkout  v5.0     => alterando a Tag
 
  #Aula 42 Enviando tag par ao repositório remoto 
-     git push origin v4.0       => Enviando Tags para o repositorio
+   git push origin v4.0       => Enviando Tags para o repositorio
+
+ #Aula 45 Encontrando Branch
+   git push --set-upstream origin Funcionalidade_A  =>Enviando brach para o repositorio
+   git fetch -a                                     => Pega todas as branch do repoistorio
+
+ #Aula 46 Recebendo Alterações 
+   git pull                   => Pega todas as atualização	do repositorio
+   (Deixando a produção sempre atualizada )
+
+#Aula 47 Eviando Alterações
+   git push              => Enviando as alterações para repositório
