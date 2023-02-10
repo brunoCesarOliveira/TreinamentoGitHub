@@ -1,7 +1,7 @@
-  #Aula 14 Criando um repositório 
+ #Aula 14 Criando um repositório 
     git.init                           => criando um repositório  
 
-  #Aula 17 Eviando o repositório para o GitHub
+ #Aula 17 Eviando o repositório para o GitHub
     git status                         => Verificando as alterações
     git add .                          => Adicionando todos os arquivo para ser comitado
     git commit -m "mensagem"           => Salvando o arquivo no repositório local
@@ -12,7 +12,7 @@
     git remote add  origin git@github.com:bcimportar/curso_git_1.git     => Adicionando uma nova origin (SSH) (Site do Git)
     git push -u origin master          => Enviando arquivos para remoto (github.com)
 
-  #Aula 18 Verificando as Mudanças 
+ #Aula 18 Verificando as Mudanças 
     git status                         => Verificando as alterações
     Untracked Files                    => Arquivo ainda não mapeado pelo GitHub (U)
     new File                           => Novo arquivo adicionado  (A)
@@ -20,23 +20,23 @@
     git add contato.html               => Adicionando um arquivo específico 
     git add .                          => Adicionando Todos os arquivo para serem comitados
     
-  #Aula 19 Salvando as alterações 
+ #Aula 19 Salvando as alterações 
    git commit a.txt -m "mensagem"      => Salvando  o arquivo específico  repositório local
    git commit -a -m "mensagem "        => Salvando todos os arquivo 
 
-  #Aula 21 Enviando códigos para o repositório remoto
+ #Aula 21 Enviando códigos para o repositório remoto
     git push                           => Eviando os arquivo para repositório remoto
 
-  #Aula 22 Recebendo alterações
+ #Aula 22 Recebendo alterações
    git pull                             => Recebendo atualizações do repoistorio remoto  
 
-  #Aula 23 Clonando repositório
+ #Aula 23 Clonando repositório
     git clone  git@github.com:bcimportar/curso_git_1.git  => Clonando o repositório remoto
 
-  #Aula 24 Removendo arquivos
+ #Aula 24 Removendo arquivos
     git rm c.txt                    => Removendo arquivo
 
-  #Aula 25 Verificando as alterações por Log
+ #Aula 25 Verificando as alterações por Log
     git log     => Verificando as os commits
  
  #Aula 26 Mover ou Renomear arquivo
@@ -48,4 +48,24 @@
 
  #Aula 28 Igonorando arquvos no projeto  
    .gitignore
- 
+  
+ #Aula 33 Criando a visualizando branches
+   git branch                        => Lista as  branches 
+   git branch primeiro_branch        => criando uma nova branch (baseada na master)
+   
+ #Aula 34 Deletando branches
+   git branch -d segundo_branch                => Deleta a branch
+   git branch --delete 123_arrrumar_bug_home   => Deleta a branch
+
+ #Aula 35 Mudando de brach
+    git checkout novabranch        => Muda de Branch (sempre cuidar para adicionar os arquivo antes de mudar de brach)
+    git checkout --b novabranch    => Muda de Branch e já a novabranch Alternando a branch algum_nome   atualização
+        
+ #Aula 36 Unindo Branch
+    git merge algum_nome               => Unindo master com algum_nome
+    git add .                          => Para as novas atualizações
+    git push                           => Para atualizações o repositório remoto
+      
+ #Aula 37 Utilizando a Stash
+   git stash           => Guarda as alterações  em outro lugar 
+  
