@@ -122,3 +122,36 @@
          
  #Aula 58 Limpando arquivos Untracked  
     git clean             => Limpando os ntracked
+
+ #Aula 58 Limpando arquivos Untracked  
+    (Verificar primeiro os arquivo que você precisa e usa add .)
+    (depois limpa os untracked)
+     git clean -f            => Limpando os untracked
+
+ #Aula 59 Otimizando o repositorio
+     git gc           -Removendo arquivo desnecessarios
+
+#Aula 60 Checando a integridade dos arquivos
+    git fsck         -Verificando arquivos corrompidos
+
+#Aula 61 Reflog  (Serve para navegar e arrumar os codigos nos commits)
+    git reflog       - Verifica todos os logs do repositorio
+    git log          - Verifica os detalhes 
+
+#Aula 62  Transformando o repo para arquivo
+     git archive --format zip --output arquivos_master.zip  = Transformando master em zip
+
+ #Aula 65 Tecnica private Branch
+     Deriva a branch copia par para um branch privada
+     git func_a                           => Cria  branch a partir da master
+     git checkout -b private_fun_a        => Cria a branch a partir func_a
+     git rebase func_a private_func_a i   => Abre a tela para configuração do rebase
+     squash                               => deleta a mensagem do commits
+     reword                               => renomeia a mensagem
+     pick                                 => onde você deixa a mensagem como estava
+     i                                    => Para fazer o renomear os commit 
+     #                                    => Deixa a mensagem como comentário
+     :x!                                  => Salva e rebase  
+
+  #Aula 66 Melhorando as mensagens do commit 
+  
