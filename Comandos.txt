@@ -93,3 +93,32 @@
 
 #Aula 47 Eviando Alterações
    git push              => Enviando as alterações para repositório
+
+   
+#Aula 48 Utilizando o remote 
+  git remove -v         => Verifica as origin das branches
+  git remote rm origin  => Remove as origin
+  git remote add        => Adiciona o repositorio remoto
+   (Precisar enviar as branches novamente )
+  git push --set-upstream origin master
+
+#Aula 49 Trabalhando com submódulos
+    git submodule                                    => lista os submodules
+    git submodule add (link do submodule(gitHub))    => adiciona o submodule
+
+#Aula 50 Atualizando submodule
+  git add .  git commit -am "m"
+  git push --recurse-submodules=on-demand    => atualizando o submodule
+
+#Aula 53 Exibindo Detalhes da Branch e Tags 
+  git show                    => Mostra os detalhes da branch
+  git show v4.0               => Mostra os detalhes da tag
+  
+#Aula 54 Exibindo Diferença da Branch e Tags 
+  git diff                    => Mostra os diferença da branch
+        
+ #Aula 55 Log resumido 
+  git shortlog                    => Mostra alterações na branch ( nomes do commits)
+         
+ #Aula 58 Limpando arquivos Untracked  
+    git clean             => Limpando os ntracked
