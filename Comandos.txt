@@ -1,7 +1,7 @@
  #Aula 14 Criando um repositório 
     git.init                           => criando um repositório  
 
- #Aula 17 Eviando o repositório para o GitHub
+ #Aula 18 Enviando o repositório para o GitHub
     git status                         => Verificando as alterações
     git add .                          => Adicionando todos os arquivo para ser comitado
     git commit -m "mensagem"           => Salvando o arquivo no repositório local
@@ -12,7 +12,7 @@
     git remote add  origin git@github.com:bcimportar/curso_git_1.git     => Adicionando uma nova origin (SSH) (Site do Git)
     git push -u origin master          => Enviando arquivos para remoto (github.com)
 
- #Aula 18 Verificando as Mudanças 
+ #Aula 19 Verificando as Mudanças 
     git status                         => Verificando as alterações
     Untracked Files                    => Arquivo ainda não mapeado pelo GitHub (U)
     new File                           => Novo arquivo adicionado  (A)
@@ -20,14 +20,16 @@
     git add contato.html               => Adicionando um arquivo específico 
     git add .                          => Adicionando Todos os arquivo para serem comitados
     
- #Aula 19 Salvando as alterações 
-   git commit a.txt -m "mensagem"      => Salvando  o arquivo específico  repositório local
-   git commit -a -m "mensagem "        => Salvando todos os arquivo 
+ #Aula 20 Adicionando arquivos ao projeto
+      git add contato.html               => Adicionando um arquivo específico 
+      git add .                          => Adicionando Todos os arquivo para serem comitados
 
- #Aula 21 Enviando códigos para o repositório remoto
-    git push                           => Eviando os arquivo para repositório remoto
+ #Aula 21 Salvando Alterações
+    git commit contato.html -m "Mensagem"         => Preparando o arquivo para serem enviados
+    git commit commit -a -m "Mensagem"            => Preparando o arquivo para serem enviados     
 
- #Aula 22 Recebendo alterações
+
+ #Aula 22 Enviando alterações
    git pull                             => Recebendo atualizações do repoistorio remoto  
 
  #Aula 23 Clonando repositório
